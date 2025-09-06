@@ -1,71 +1,58 @@
 # Credit-Card-Default-Analysis-Dashboard
-📊 Credit Card Default Analysis Dashboard
-🔎 Overview
+# 📊 Credit Card Default Analysis Dashboard  
 
-This project analyzes credit card default payments using demographic and financial attributes from the dataset Credit Defaulters.xlsx.
-The dashboard provides insights into:
+## 🔎 Overview  
+This project analyzes **credit card default payments** using demographic and financial attributes from the dataset `Credit Defaulters.xlsx`.  
+The dashboard provides insights into:  
 
-Education level and default patterns
+- Education level and default patterns  
+- Age & gender distribution of defaults  
+- Marital status and defaults  
+- Geographic distribution of defaults across states  
 
-Age & gender distribution of defaults
+The goal is to help financial institutions **identify high-risk customer groups** and make data-driven lending decisions.  
 
-Marital status and defaults
+---
 
-Geographic distribution of defaults across states
+## 🗂 Dataset  
+- **File**: `Credit Defaulters.xlsx`  
+- **Columns Used**:  
+  - `AGE` – Customer age  
+  - `Gender` – Male/Female  
+  - `Education level` – Graduate, Inter, Postgraduate  
+  - `Marital status` – Single, Married, Others  
+  - `Default payment next month` – Whether the customer defaulted (1 = Yes, 0 = No)  
+  - `State` – Customer’s state  
 
-The goal is to help financial institutions identify high-risk customer groups and make data-driven lending decisions.
+---
 
-🗂 Dataset
+## 📈 Dashboard Features  
+1. **Education Level vs Defaults**  
+   - Shows how defaults vary by highest education attained.  
 
-File: Credit Defaulters.xlsx
+2. **Age & Gender vs Defaults**  
+   - Highlights age groups where defaults are frequent.  
 
-Columns Used:
+3. **Marital Status vs Defaults**  
+   - Identifies whether singles, married, or others are more likely to default.  
 
-AGE – Customer age
+4. **State-wise Default Distribution**  
+   - Maps customer defaults geographically across the United States.  
 
-Gender – Male/Female
+---
 
-Education level – Graduate, Inter, Postgraduate
+## 🛠 Tools & Technologies  
+- **Data Source**: Excel (`Credit Defaulters.xlsx`)  
+- **Visualization**: Power BI (Dashboard creation)  
+- **Data Cleaning & Transformation**: Power Query  
 
-Marital status – Single, Married, Others
+##📌 Key Insights
 
-Default payment next month – Whether the customer defaulted (1 = Yes, 0 = No)
+-Majority of defaults are observed among single individuals.
 
-State – Customer’s state
+-Postgraduate customers show higher default rates compared to graduates or intermediate levels.
 
-📈 Dashboard Features
+-Defaults are spread across multiple states, indicating no strong geographic bias.
 
-Education Level vs Defaults
+-Young adults (20–30 years) show frequent default occurrences.
 
-Shows how defaults vary by highest education attained.
-
-Age & Gender vs Defaults
-
-Highlights age groups where defaults are frequent.
-
-Marital Status vs Defaults
-
-Identifies whether singles, married, or others are more likely to default.
-
-State-wise Default Distribution
-
-Maps customer defaults geographically across the United States.
-
-🛠 Tools & Technologies
-
-Data Source: Excel (Credit Defaulters.xlsx)
-
-Visualization: Power BI (Dashboard creation)
-
-Data Cleaning & Transformation: Power Query
-
-
-📌 Key Insights
-
-Majority of defaults are observed among single individuals.
-
-Postgraduate customers show higher default rates compared to graduates or intermediate levels.
-
-Defaults are spread across multiple states, indicating no strong geographic bias.
-
-Young adults (20–30) show frequent default occurrences.
