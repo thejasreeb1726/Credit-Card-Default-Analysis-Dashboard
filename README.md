@@ -44,9 +44,10 @@ The goal is to help financial institutions **identify high-risk customer groups*
 ## 🛠 Tools & Technologies  
 - **Data Source**: Excel (`Credit Defaulters.xlsx`)  
 - **Visualization**: Power BI (Dashboard creation)  
-- **Data Cleaning & Transformation**: Power Query  
+- **Data Cleaning & Transformation**: Power Query
+---
 
-##📌 Key Insights
+## 📌 Key Insights
 
 -Majority of defaults are observed among single individuals.
 
